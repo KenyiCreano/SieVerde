@@ -21,7 +21,7 @@
 		"ghcr.io/jayree/devcontainer-features/npm-registry:1": {
 			"registry": "@SCOPE:registry=https://npm.pkg.github.com\n//npm.pkg.github.com/:_authToken=${localEnv:GITHUB_TOKEN}"
 		}
-	}
+	},
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	// "forwardPorts": [],
@@ -31,6 +31,28 @@
 
 	// Configure tool-specific properties.
 	// "customizations": {},
+	"extensions":[
+		"EliverLara.andromeda",
+		"pranaygp.vscode-css-peek",
+		"vscjava.vscode-java-debug",
+		"usernamehw.errorlens",
+		"vscjava.vscode-java-pack",
+		"GitHub.vscode-pull-request-github",
+		"vscjava.vscode-gradle",
+		"VisualStudioExptTeam.vscodeintellicode",
+		"VisualStudioExptTeam.intellicode-api-usage-examples",
+		"redhat.java",
+		"PKief.material-icon-theme",
+		"vscjava.vscode-maven",
+		"vscjava.vscode-java-dependency",
+		"redhat.fabric8-analytics",
+		"vscjava.vscode-spring-boot-dashboard",
+		"vmware.vscode-spring-boot",
+		"vscjava.vscode-spring-initializr",
+		"vscjava.vscode-java-test",
+		"Vue.volar",
+		"sdras.vue-vscode-snippets"
+	]
 
 	// Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
 	// "remoteUser": "root"
