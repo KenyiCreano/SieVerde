@@ -1,0 +1,111 @@
+
+h1{
+    font-family: "Montserrat", sans-serif;
+}
+h1 span{
+    color: #157f3d;
+}
+
+.usuario, .contra{
+    display: inline-flex;
+}
+
+.usuario img, .contra img{
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-bottom: 2.2em;
+    border-bottom: 0.1em solid #157f3d;
+    padding-bottom: 0.5em;
+}
+
+img{
+    width: 4.75rem;
+    height: 4.75rem;
+    margin: 2em auto;
+    margin-bottom: 1em;
+    display: block;
+}
+.inicioSesion{
+background-color: #ffffff;
+    font-family: "ui-sans-serif", "system-ui",
+    -apple-system, "Segoe UI", "Roboto", "Ubuntu",
+    "Cantarell", "Noto Sans", "sans-serif",
+    "BlinkMacSystemFont", "Helvetica Neue", "Arial", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    padding: 2rem;
+    border-radius: 1em;
+    margin: 5rem 30rem;
+    max-width: 800px;
+    text-align: center;
+}
+.cajaTexto{
+    text-align: center;
+    font-size: 1.5em;
+    border: none;
+    border-bottom: .09em solid #157f3d;
+    width: 100%;
+    margin:auto;
+}
+
+.cajaTexto:focus{
+    outline: none;
+}
+
+.boton{
+    background-color: #157f3d;
+    color: white;
+    border-radius: 1rem;
+    border: none;
+    padding: .5em;
+    margin: .5em auto;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    width: 100%;
+}
+.boton:hover{
+    padding: 0.75rem;
+}
+
+
+
+/* Media query para pantallas medianas */
+@media screen and (max-width: 768px) {
+    .inicioSesion {
+        margin: 2rem 2rem;
+        margin-top: 10rem;
+    }
+
+    .usuario img, .contra img {
+        margin-bottom: 2rem;
+        border-bottom: 0.1em solid #157f3d;
+    }
+
+    .cajaTexto, .boton {
+        font-size: 1.5em;
+        margin-bottom: 2rem;
+        padding: 0.5rem;
+    }
+
+}
+
+/* Media query para pantallas pequeñas */
+@media screen and (max-width: 480px) {
+
+    .usuario, .contra {
+        margin-bottom: 1.1rem;
+        border-bottom: none;
+        border-bottom: 0.1em solid #157f3d;
+    }
+
+    .cajaTexto, .boton {
+        font-size: 1.5rem;
+        margin-bottom: 1.1rem;
+        padding: 0.5rem;
+    }
+}
+
+
+
+
+

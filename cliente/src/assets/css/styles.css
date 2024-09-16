@@ -1,0 +1,78 @@
+body{
+    background-color: #fefafa;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+ul{
+    margin: 0;
+}
+header nav ul{
+    list-style: none;
+    padding: 25px;
+    /*margin-right: ;
+    margin-top: -7.5px;*/
+    display: flex;
+    justify-content: space-around;
+    background-color: #157f3d;
+}
+header nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+#barraScroll{
+
+    height: 10rem;
+    width: 20rem;
+    border: 1px #8bd422;
+    background: #f1f1f1;
+    overflow-y: scroll;
+}
+label{
+    font-family: "Montserrat", sans-serif;
+    font-size: 1em;
+    color: black;
+}
+label.texto{
+    font-weight: bold;
+    color: #157f3d;
+}
+/*header nav ul li a:hover{
+    color: red;
+
+}*/
+
+nav ul li a:hover {
+    padding: 0.75rem;
+    background-color: #71b979; /* Cambia el color de fondo al hacer hover */
+    color: #fff; /* Cambia el color del texto al hacer hover */
+    border-radius: 20px; /* Agrega bordes redondeados al hacer hover */
+}
+
+
+form{
+    background-color: aliceblue;
+    border-radius: 20px;
+}
+
+form .boton{
+    background-color: #157f3d;
+    color: white;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+}
+
+form #lblhola{
+    color: #71b979;
+}
